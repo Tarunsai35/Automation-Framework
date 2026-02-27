@@ -13,6 +13,10 @@ import org.testng.annotations.BeforeMethod;
 public class BaseClass {
 
     protected WebDriver driver;
+    
+    public void setDriver(WebDriver driver) {
+    	this.driver=driver;
+    }
 
     @BeforeMethod
     public void setupBrowser() throws IOException {
