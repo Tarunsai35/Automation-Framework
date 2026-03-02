@@ -16,6 +16,17 @@ public class ActionDriver {
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 	}
+	
+	//Method to get text from an input field
+	public String getText(By by) {
+		try {
+			waitForElementToBeVisible(by);
+			return driver.findElement(by).getText();
+		} catch (Exception e) {
+			System.out.println("Unable to get the Text :"+e.getMessage());
+			return "";
+		}
+	}
 
 	//Method to compare two Text
 	public void compareTex(By by, String Expected) {
