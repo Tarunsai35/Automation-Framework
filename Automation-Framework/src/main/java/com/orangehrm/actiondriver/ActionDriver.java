@@ -23,6 +23,7 @@ public class ActionDriver  {
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(implicitWait));
 	}
 
+	
 	// Method to Click an element
 	public void click(By by) {
 		try {
