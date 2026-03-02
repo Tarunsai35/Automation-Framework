@@ -1,0 +1,7 @@
+<!ELEMENT suit (test)>
+<!ATTLIST suit name NMTOKEN #REQUIRED>
+<!ELEMENT test (classes)>
+<!ATTLIST test name NMTOKEN #REQUIRED>
+<!ELEMENT classes (class)>
+<!ELEMENT class (#PCDATA)>
+<!ATTLIST class name NMTOKEN #REQUIRED>

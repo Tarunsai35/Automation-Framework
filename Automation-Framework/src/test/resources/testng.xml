@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suit SYSTEM "testng.dtd">
+<suit name="OrangeHRMSuite">
+	<test name="OrangeHRMTest">
+		<classes>
+			<class name="com.orangehrm.test.DummyClass">
+			</class>
+		</classes>
+	</test>
+</suit>
