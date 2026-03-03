@@ -15,14 +15,13 @@ public class ActionDriver  {
 
 	private WebDriver driver;
 	private WebDriverWait wait;
-
+	
 	public ActionDriver(WebDriver driver) {
 		this.driver = driver;
 		String implicitWaitStr = ConfigReader.getProperty("implicitWait");
 		int implicitWait = implicitWaitStr != null ? Integer.parseInt(implicitWaitStr) : 30;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(implicitWait));
 	}
-
 	
 	// Method to Click an element
 	public void click(By by) {
