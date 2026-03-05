@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-27T15:21:57 IST" name="Default suite" finished-at="2026-02-27T15:22:02 IST" duration-ms="5545">
+  <suite started-at="2026-03-05T18:46:35 IST" name="Default suite" finished-at="2026-03-05T18:47:26 IST" duration-ms="50686">
     <groups>
     </groups>
-    <test started-at="2026-02-27T15:21:57 IST" name="Default test" finished-at="2026-02-27T15:22:02 IST" duration-ms="5545">
-      <class name="com.orangehrm.test.DummyClass">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.orangehrm.test.DummyClass@158da8e]" started-at="2026-02-27T15:21:57 IST" name="setupBrowser" finished-at="2026-02-27T15:22:02 IST" duration-ms="5341" status="PASS">
+    <test started-at="2026-03-05T18:46:35 IST" name="Default test" finished-at="2026-03-05T18:47:26 IST" duration-ms="50686">
+      <class name="com.orangehrm.test.LoginPageTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.orangehrm.test.LoginPageTest@7c729a55]" started-at="2026-03-05T18:46:35 IST" name="setupBrowser" finished-at="2026-03-05T18:46:41 IST" duration-ms="6216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="dummyclass()[pri:0, instance:com.orangehrm.test.DummyClass@158da8e]" started-at="2026-02-27T15:22:02 IST" name="dummyclass" finished-at="2026-02-27T15:22:02 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangehrm.test.LoginPageTest@7c729a55]" started-at="2026-03-05T18:46:41 IST" name="setupPages" finished-at="2026-03-05T18:46:41 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dummyclass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.DummyClass@158da8e]" started-at="2026-02-27T15:22:02 IST" name="tearDown" finished-at="2026-02-27T15:22:02 IST" duration-ms="153" status="PASS">
+        </test-method> <!-- setupPages -->
+        <test-method signature="verifyValidLoginTest()[pri:0, instance:com.orangehrm.test.LoginPageTest@7c729a55]" started-at="2026-03-05T18:46:41 IST" name="verifyValidLoginTest" finished-at="2026-03-05T18:47:25 IST" duration-ms="44063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginPageTest@7c729a55]" started-at="2026-03-05T18:47:25 IST" name="tearDown" finished-at="2026-03-05T18:47:26 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.test.DummyClass -->
+      </class> <!-- com.orangehrm.test.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
