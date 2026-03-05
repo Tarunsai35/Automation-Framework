@@ -37,8 +37,11 @@ public class ActionDriver  {
 	public void enterText(By by, String value) {
 		try {
 			waitForElementToBeVisible(by);
-			driver.findElement(by).clear();
-			driver.findElement(by).sendKeys(value);
+//			driver.findElement(by).clear();
+//			driver.findElement(by).sendKeys(value);
+			WebElement element = driver.findElement(by);
+			element.clear();
+			element.click();	
 		} catch (Exception e) {
 			System.out.println("Unable to enter the value:" + e.getMessage());
 		}
@@ -72,7 +75,7 @@ public class ActionDriver  {
 
 	// Method to check if an element is displayed
 	public boolean isDisplayed(By by) {
-		try {
+	/*	try {
 			waitForElementToBeVisible(by);
 			boolean isDisplayed = driver.findElement(by).isDisplayed();
 			if (isDisplayed) {
@@ -84,7 +87,17 @@ public class ActionDriver  {
 		} catch (Exception e) {
 			System.out.println("elemnet is not displayed :" + e.getMessage());
 			return false;
+			}
+	*/
+		
+		try {
+			waitForElementToBeVisible(by);
+			return driver.findElement(by).isDisplayed();
+		} catch (Exception e) {
+			System.out.println("Element is not displayed:"+ e.getMessage());
+			return false;
 		}
+		
 	}
 
 	// Scroll to an element
