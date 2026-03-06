@@ -13,7 +13,7 @@ public class LoginPage {
 	private By UserNameField = By.cssSelector("input[placeholder='Username']");
 	private By PasswordField = By.cssSelector("input[placeholder='Password']");
 	private By LoginBtn = By.cssSelector("button[type='submit']");
-	private By ErroeMessage = By.cssSelector(".oxd-text.oxd-text--p.oxd-alert-content-text");
+	private By ErroeMessage = By.cssSelector("p[class='oxd-text oxd-text--p oxd-alert-content-text']");
 
 	public LoginPage(WebDriver driver) {
 		this.actionDriver = new ActionDriver(driver);
