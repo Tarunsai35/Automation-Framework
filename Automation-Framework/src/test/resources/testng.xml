@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suit SYSTEM "testng.dtd">
-<suit name="OrangeHRMSuite">
-	<test name="OrangeHRMTest">
-		<classes>
-			<class name="com.orangehrm.test.DummyClass">
-			</class>
-		</classes>
-	</test>
-</suit>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRMSuite" verbose="0">
+    <test name="OrangeHRMTest">
+        <classes>
+            <class name="com.orangehrm.test.DummyClass"></class>
+            <class name="com.orangehrm.test.LoginPageTest"></class>
+        </classes>
+    </test>
+</suite>

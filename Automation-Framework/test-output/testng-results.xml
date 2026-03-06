@@ -1,29 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-05T18:46:35 IST" name="Default suite" finished-at="2026-03-05T18:47:26 IST" duration-ms="50686">
+  <suite started-at="2026-03-06T07:45:58 IST" name="OrangeHRMSuite" finished-at="2026-03-06T07:46:47 IST" duration-ms="48851">
     <groups>
     </groups>
-    <test started-at="2026-03-05T18:46:35 IST" name="Default test" finished-at="2026-03-05T18:47:26 IST" duration-ms="50686">
-      <class name="com.orangehrm.test.LoginPageTest">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.orangehrm.test.LoginPageTest@7c729a55]" started-at="2026-03-05T18:46:35 IST" name="setupBrowser" finished-at="2026-03-05T18:46:41 IST" duration-ms="6216" status="PASS">
+    <test started-at="2026-03-06T07:45:58 IST" name="OrangeHRMTest" finished-at="2026-03-06T07:46:47 IST" duration-ms="48851">
+      <class name="com.orangehrm.test.DummyClass">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.orangehrm.test.DummyClass@66d18979]" started-at="2026-03-06T07:45:58 IST" name="setupBrowser" finished-at="2026-03-06T07:46:02 IST" duration-ms="3307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangehrm.test.LoginPageTest@7c729a55]" started-at="2026-03-05T18:46:41 IST" name="setupPages" finished-at="2026-03-05T18:46:41 IST" duration-ms="25" status="PASS">
+        <test-method signature="dummyclass()[pri:0, instance:com.orangehrm.test.DummyClass@66d18979]" started-at="2026-03-06T07:46:02 IST" name="dummyclass" finished-at="2026-03-06T07:46:18 IST" duration-ms="16133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyclass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.DummyClass@66d18979]" started-at="2026-03-06T07:46:18 IST" name="tearDown" finished-at="2026-03-06T07:46:18 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.test.DummyClass -->
+      <class name="com.orangehrm.test.LoginPageTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.orangehrm.test.LoginPageTest@10d68fcd]" started-at="2026-03-06T07:46:18 IST" name="setupBrowser" finished-at="2026-03-06T07:46:30 IST" duration-ms="11731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangehrm.test.LoginPageTest@10d68fcd]" started-at="2026-03-06T07:46:30 IST" name="setupPages" finished-at="2026-03-06T07:46:30 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyValidLoginTest()[pri:0, instance:com.orangehrm.test.LoginPageTest@7c729a55]" started-at="2026-03-05T18:46:41 IST" name="verifyValidLoginTest" finished-at="2026-03-05T18:47:25 IST" duration-ms="44063" status="PASS">
+        <test-method signature="verifyValidLoginTest()[pri:0, instance:com.orangehrm.test.LoginPageTest@10d68fcd]" started-at="2026-03-06T07:46:30 IST" name="verifyValidLoginTest" finished-at="2026-03-06T07:46:47 IST" duration-ms="16536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginPageTest@7c729a55]" started-at="2026-03-05T18:47:25 IST" name="tearDown" finished-at="2026-03-05T18:47:26 IST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginPageTest@10d68fcd]" started-at="2026-03-06T07:46:47 IST" name="tearDown" finished-at="2026-03-06T07:46:47 IST" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.test.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- OrangeHRMTest -->
+  </suite> <!-- OrangeHRMSuite -->
 </testng-results>

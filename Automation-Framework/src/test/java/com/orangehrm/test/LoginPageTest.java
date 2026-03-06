@@ -1,5 +1,5 @@
 package com.orangehrm.test;
-
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -21,5 +21,7 @@ public class LoginPageTest extends BaseClass {
 	@Test
 	public void verifyValidLoginTest() {
 		loginPage.login("Admin", "admin123");
+		Assert.assertTrue(homePage.isAdminToVisible(),"Admin tab should be visible after successful login ");
+		homePage.logout();
 	}
 }
