@@ -41,7 +41,7 @@ public class ActionDriver  {
 //			driver.findElement(by).sendKeys(value);
 			WebElement element = driver.findElement(by);
 			element.clear();
-			element.click();	
+			element.sendKeys(value);	
 		} catch (Exception e) {
 			System.out.println("Unable to enter the value:" + e.getMessage());
 		}
