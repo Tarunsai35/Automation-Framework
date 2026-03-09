@@ -41,7 +41,7 @@ public class ActionDriver  {
 //			driver.findElement(by).sendKeys(value);
 			WebElement element = driver.findElement(by);
 			element.clear();
-			element.sendKeys(value);	
+			element.click();	
 		} catch (Exception e) {
 			System.out.println("Unable to enter the value:" + e.getMessage());
 		}
@@ -58,7 +58,7 @@ public class ActionDriver  {
 		}
 	}
 
-	// Method to compare two Text
+	// Method to compare two Text 
 	public boolean compareTex(By by, String Expected) {
 		try {
 			waitForElementToBeVisible(by);
