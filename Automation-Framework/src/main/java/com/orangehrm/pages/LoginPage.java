@@ -37,8 +37,8 @@ public class LoginPage {
 	}
 
 	// verify if error is correct or not
-	public void verifyErrorMessage(String Expected) {
-		actionDriver.compareTex(ErroeMessage, Expected);
+	public boolean verifyErrorMessage(String Expected) {
+		return actionDriver.compareTex(ErroeMessage, Expected);
 	}
 
 }
