@@ -22,11 +22,15 @@ public class LoginPageTest extends BaseClass {
 	@Test
 	public void verifyValidLoginTest() {
 		loginPage.login("Admin", "admin123");
-		Assert.assertTrue(homePage.isAdminToVisible(), "Admin tab should be visible");
+		Assert.assertTrue(homePage.isAdminToVisible(), "Admin tab should be visible after successful login");
+		homePage.logout();
 	}
 	
 	@Test
 	public void verifyInvalidLaoginTest() {
+		loginPage.login("Admin", "Admin");
+		String expectedErrorMessage = "Invalid credentials";
+		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),"Test failed: Invalid Error Message");
 		
 	}
 	

@@ -41,7 +41,7 @@ public class ActionDriver  {
 //			driver.findElement(by).sendKeys(value);
 			WebElement element = driver.findElement(by);
 			element.clear();
-			element.click();	
+			element.sendKeys(value);	
 		} catch (Exception e) {
 			System.out.println("Unable to enter the value:" + e.getMessage());
 		}
@@ -64,10 +64,10 @@ public class ActionDriver  {
 			waitForElementToBeVisible(by);
 			String actualText = driver.findElement(by).getText();
 			if (Expected.equals(actualText)) {
-				System.out.println("Text are matching" + actualText + "equal" + Expected);
+				System.out.println("Text are matching " + actualText + " equal " + Expected);
 				return true;
 			} else {
-				System.out.println("Text are not matching" + actualText + "equal" + Expected);
+				System.out.println("Text are not matching " + actualText + " equal " + Expected);
 				return false;
 			}
 		} catch (Exception e) {
