@@ -2,6 +2,7 @@ package com.orangehrm.actiondriver;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -9,18 +10,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.orangehrm.base.BaseClass;
 import com.orangehrm.base.ConfigReader;
 
 public class ActionDriver  {
 
 	private WebDriver driver;
 	private WebDriverWait wait;
+	public static final Logger logger = BaseClass.logger;
 	
 	public ActionDriver(WebDriver driver) {
 		this.driver = driver;
 		String implicitWaitStr = ConfigReader.getProperty("implicitWait");
 		int implicitWait = implicitWaitStr != null ? Integer.parseInt(implicitWaitStr) : 30;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(implicitWait));
+		logger.info("Webdriver instance is created.");
 	}
 	
 	// Method to Click an element
@@ -28,8 +32,9 @@ public class ActionDriver  {
 		try {
 			waitForElementToBeClick(by);
 			driver.findElement(by).click();
+			logger.info("Clicken an element");
 		} catch (Exception e) {
-			System.out.println("Unable to Click Element:" + e.getMessage());
+			logger.error("Unable to Click Element:" + e.getMessage());
 		}
 	}
 
@@ -41,9 +46,10 @@ public class ActionDriver  {
 //			driver.findElement(by).sendKeys(value);
 			WebElement element = driver.findElement(by);
 			element.clear();
-			element.sendKeys(value);	
+			element.sendKeys(value);
+			logger.info("Enter text "+value);
 		} catch (Exception e) {
-			System.out.println("Unable to enter the value:" + e.getMessage());
+			logger.error("Unable to enter the value:" + e.getMessage());
 		}
 	}
 
@@ -53,7 +59,7 @@ public class ActionDriver  {
 			waitForElementToBeVisible(by);
 			return driver.findElement(by).getText();
 		} catch (Exception e) {
-			System.out.println("Unable to get the Text:" + e.getMessage());
+			logger.error("Unable to get the Text:" + e.getMessage());
 			return "";
 		}
 	}
@@ -64,14 +70,14 @@ public class ActionDriver  {
 			waitForElementToBeVisible(by);
 			String actualText = driver.findElement(by).getText();
 			if (Expected.equals(actualText)) {
-				System.out.println("Text are matching " + actualText + " equal " + Expected);
+				logger.info("Text are matching " + actualText + " equal " + Expected);
 				return true;
 			} else {
-				System.out.println("Text are not matching " + actualText + " equal " + Expected);
+				logger.error("Text are not matching " + actualText + " equal " + Expected);
 				return false;
 			}
 		} catch (Exception e) {
-			System.out.println("unable to compare text:" + e.getMessage());
+			logger.error("unable to compare text:" + e.getMessage());
 		}
 		return false;
 	}
@@ -97,7 +103,7 @@ public class ActionDriver  {
 			waitForElementToBeVisible(by);
 			return driver.findElement(by).isDisplayed();
 		} catch (Exception e) {
-			System.out.println("Element is not displayed:"+ e.getMessage());
+			logger.error("Element is not displayed:"+ e.getMessage());
 			return false;
 		}
 		
@@ -110,7 +116,7 @@ public class ActionDriver  {
 			WebElement element = driver.findElement(by);
 			js.executeScript("arguments[0]", "scrollIntoView(true)", element);
 		} catch (Exception e) {
-			System.out.println("Unable to loacte element:" + e.getMessage());
+			logger.error("Unable to loacte element:" + e.getMessage());
 		}
 	}
 
@@ -119,7 +125,7 @@ public class ActionDriver  {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(by));
 		} catch (Exception e) {
-			System.out.println("element is not clickable: " + e.getMessage());
+			logger.error("element is not clickable: " + e.getMessage());
 		}
 	}
 
@@ -128,7 +134,7 @@ public class ActionDriver  {
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 		} catch (Exception e) {
-			System.out.println("Element is not visible: " + e.getMessage());
+			logger.error("Element is not visible: " + e.getMessage());
 		}
 	}
 
