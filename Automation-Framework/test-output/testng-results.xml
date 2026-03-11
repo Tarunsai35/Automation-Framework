@@ -3,6 +3,9 @@
   <reporter-output>
   </reporter-output>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0cc7d2f21700c2ac78d18bc2c11dca804194a9fc
   <suite started-at="2026-03-10T12:15:12 IST" name="Default suite" finished-at="2026-03-10T12:16:12 IST" duration-ms="60047">
     <groups>
     </groups>
@@ -25,6 +28,7 @@
           </reporter-output>
         </test-method> <!-- verifyInvalidLoginTest -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginPageTest@36bc55de]" started-at="2026-03-10T12:16:12 IST" name="tearDown" finished-at="2026-03-10T12:16:12 IST" duration-ms="258" status="PASS">
+<<<<<<< HEAD
 =======
   <suite started-at="2026-03-11T07:30:55 IST" name="Default suite" finished-at="2026-03-11T07:32:22 IST" duration-ms="86972">
     <groups>
@@ -188,6 +192,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- verifyValidLoginTest -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginPageTest@4b45dcb8]" started-at="2026-03-11T07:32:22 IST" name="tearDown" finished-at="2026-03-11T07:32:22 IST" duration-ms="0" status="SKIP">
 >>>>>>> 5e3e5e97c3bca0a52f5f39d3bc18549be342103c
+=======
+>>>>>>> 0cc7d2f21700c2ac78d18bc2c11dca804194a9fc
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
