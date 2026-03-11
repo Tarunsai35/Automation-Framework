@@ -3,6 +3,6 @@
 <testsuite ignored="1" hostname="DESKTOP-LF8D4KF" failures="0" tests="1" name="Default test" time="60.047" errors="0" timestamp="2026-03-10T12:16:12 IST">
   <testcase classname="com.orangehrm.test.LoginPageTest" name="verifyInvalidLoginTest" time="24.571"/>
   <testcase classname="com.orangehrm.test.LoginPageTest" name="verifyValidLoginTest" time="0.0">
-    <ignored/>
+    <skipped/>
   </testcase> <!-- verifyValidLoginTest -->
 </testsuite> <!-- Default test -->
