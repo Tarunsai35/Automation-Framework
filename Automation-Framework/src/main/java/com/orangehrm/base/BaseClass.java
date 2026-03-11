@@ -2,6 +2,8 @@ package com.orangehrm.base;
 
 import java.io.IOException;
 import java.time.Duration;
+
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,12 +14,16 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
 
 	protected WebDriver driver;
 	private static ActionDriver actionDriver;
+	protected ConfigReader config;
+	public static final Logger logger = LoggerManager.getlogger(BaseClass.class);
 
+	//constructor 
 	public void setDriver(WebDriver driver) {
 		this.driver = driver;
 	}
@@ -27,17 +33,19 @@ public class BaseClass {
 		System.out.println("Setting up webdriver for :" + this.getClass().getSimpleName());
 		setupBrowser();
 
+		logger.info("Webdriver initilized and browser maximized");
+		
 		// initialize the actionDriver class only once
 		if (actionDriver == null) {
 			actionDriver = new ActionDriver(driver);
-			System.out.println("ActionDriver instance is created");
+			logger.info("ActionDriver instance is created");
 		}
 	}
 
 	@BeforeMethod
 	public void setupBrowser() throws IOException {
-		String browser = ConfigReader.getProperty("browser");
-		String headlessString = ConfigReader.getProperty("headless");
+		String browser = config.getProperty("browser");
+		String headlessString = config.getProperty("headless");
 		boolean headless = Boolean.parseBoolean(headlessString); // Convert to boolean
 
 		if (browser == null) {
@@ -46,39 +54,36 @@ public class BaseClass {
 
 		// Initialize browser based on config
 		if (browser.equalsIgnoreCase("chrome")) {
-
 			ChromeOptions options = new ChromeOptions();
-
 			if (headless) {
 				options.addArguments("--headless=new");
 				options.addArguments("--disable-gpu");
+				logger.info("Headless mode Initialized - chrome");
 			}
-
 			driver = new ChromeDriver(options);
+			logger.info("ChromeDriver Initialized");
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
-
 			FirefoxOptions options = new FirefoxOptions();
-
 			if (headless) {
 				options.addArguments("-headless");
+				logger.info("Headless mode Initialized - chrome");
 			}
-
 			driver = new FirefoxDriver(options);
-
+			logger.info("FirefoxDriver Initialized");
 		} else {
 			throw new IllegalArgumentException("Browser not supported: " + browser);
 		}
 
 		// Set implicit wait time from config
-		String implicitWaitStr = ConfigReader.getProperty("implicitWait");
+		String implicitWaitStr = config.getProperty("implicitWait");
 		int implicitWait = implicitWaitStr != null ? Integer.parseInt(implicitWaitStr) : 30; // default to 30 if not set
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
 
 		driver.manage().window().maximize();
 
 		// Get the URL to navigate to
-		String url = ConfigReader.getProperty("url");
+		String url = config.getProperty("url");
 		if (url == null) {
 			throw new IllegalArgumentException("URL not specified in config.");
 		}
@@ -91,10 +96,10 @@ public class BaseClass {
 			try {
 				driver.quit();
 			} catch (Exception e) {
-				System.out.println("unable to quit the driver: " + e.getMessage());
+				logger.error("unable to quit the driver: " + e.getMessage());
 			}
 		}
-		System.out.println("webdriver instance is closed");
+		logger.info("webdriver instance is closed");
 		driver = null;
 		actionDriver = null;
 	}
