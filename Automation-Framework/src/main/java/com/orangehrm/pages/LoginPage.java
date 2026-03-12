@@ -1,5 +1,8 @@
 package com.orangehrm.pages;
 
+import java.util.logging.LogManager;
+
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -9,7 +12,8 @@ import com.orangehrm.base.BaseClass;
 public class LoginPage {
 
 	private ActionDriver actionDriver;
-
+	public static final Logger logger = BaseClass.logger;
+	
 	// Define Locators using By Class
 	private By UserNameField = By.cssSelector("input[placeholder='Username']");
 	private By PasswordField = By.cssSelector("input[placeholder='Password']");
@@ -24,7 +28,7 @@ public class LoginPage {
 	
 	public LoginPage(WebDriver driver) {
 		this.actionDriver = BaseClass.getActionDriver();
-		System.out.println("created action driver");
+		logger.info("created action driver");
 	}
 
 	// method to perform login

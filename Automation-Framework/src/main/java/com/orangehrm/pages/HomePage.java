@@ -12,7 +12,7 @@ public class HomePage {
 
 	// Define Locators using By Class
 	private By adminTab = By.xpath("//span[text()='Admin']");
-	private By profileIcon = By.className("oxd-userdropdown-img");
+	private By profileIconName = By.className("oxd-userdropdown-name");
 	private By logoutBtn = By.xpath("//a[text()='Logout']");
 	private By LogoImage = By.xpath("//div[@class='oxd-brand-banner']/img");
 	
@@ -38,7 +38,7 @@ public class HomePage {
 	
 	//Method to perform Logout operation
 	public void logout() {
-		actionDriver.click(profileIcon);
+		actionDriver.click(profileIconName);
 		actionDriver.click(LogoImage);
 	}
 	

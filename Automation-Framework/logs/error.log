@@ -1,0 +1,27 @@
+2026-03-12 16:40:44 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 16:40:44 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 16:40:44 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 16:40:44 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 16:40:44 [main] ERROR ActionDriver - element is not clickable: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 16:40:44 [main] ERROR ActionDriver - Unable to Click Element: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 16:40:44 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 16:40:44 [main] ERROR ActionDriver - Element is not displayed:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:23:53 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:23:53 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:23:53 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:23:53 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:23:53 [main] ERROR ActionDriver - element is not clickable: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:23:53 [main] ERROR ActionDriver - Unable to Click Element: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:23:53 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:23:53 [main] ERROR ActionDriver - Element is not displayed:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:27:21 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:27:26 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:27:29 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:33:20 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:33:20 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:33:20 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:33:20 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:33:20 [main] ERROR ActionDriver - element is not clickable: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:33:20 [main] ERROR ActionDriver - Unable to Click Element: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-12 17:33:20 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-03-12 17:33:20 [main] ERROR ActionDriver - Element is not displayed:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null

@@ -3,7 +3,6 @@ package com.orangehrm.actiondriver;
 import java.time.Duration;
 
 import org.apache.logging.log4j.Logger;
-import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -19,6 +18,7 @@ public class ActionDriver {
 	private WebDriver driver;
 	private WebDriverWait wait;
 	public static final Logger logger = BaseClass.logger;
+//	private static final Logger logger = LoggerManager.getlogger(ActionDriver.class);
 
 	public ActionDriver(WebDriver driver) {
 		this.driver = driver;
@@ -33,7 +33,7 @@ public class ActionDriver {
 		try {
 			waitForElementToBeClick(by);
 			driver.findElement(by).click();
-			logger.info("Clicken an element -->" + getElementDescription(by));
+			logger.info("Clicked an element -->" + getElementDescription(by));
 		} catch (Exception e) {
 			logger.error("Unable to Click Element: " + e.getMessage());
 		}
@@ -110,7 +110,7 @@ public class ActionDriver {
 		try {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			WebElement element = driver.findElement(by);
-			js.executeScript("arguments[0]", "scrollIntoView(true)", element);
+			js.executeScript("arguments[0].scrollIntoView(true);", element);
 		} catch (Exception e) {
 			logger.error("Unable to loacte element:" + e.getMessage());
 		}
