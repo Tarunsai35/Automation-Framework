@@ -14,7 +14,7 @@ public class HomePage {
 	private By adminTab = By.xpath("//span[text()='Admin']");
 	private By profileIconName = By.className("oxd-userdropdown-name");
 	private By logoutBtn = By.xpath("//a[text()='Logout']");
-	private By LogoImage = By.xpath("//div[@class='oxd-brand-banner']/img");
+	private By LogoImage = By.cssSelector("span[class='oxd-userdropdown-tab']");
 	
 	//initialize the ActionDriver object by passing webDriver instance
 /*	public HomePage(WebDriver driver) {

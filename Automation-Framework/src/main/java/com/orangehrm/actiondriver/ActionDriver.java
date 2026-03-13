@@ -48,7 +48,7 @@ public class ActionDriver {
 			WebElement element = driver.findElement(by);
 			element.clear();
 			element.sendKeys(value);
-			logger.info("Enter text on" + getElementDescription(by) + " " + value);
+			logger.info("Enter text on -->" + getElementDescription(by) + " " + value);
 		} catch (Exception e) {
 			logger.error("Unable to enter the value:" + e.getMessage());
 		}
@@ -96,7 +96,7 @@ public class ActionDriver {
 
 		try {
 			waitForElementToBeVisible(by);
-			logger.info("Element is displayed: " + getElementDescription(by));
+			logger.info("Element is displayed -->" + getElementDescription(by));
 			return driver.findElement(by).isDisplayed();
 		} catch (Exception e) {
 			logger.error("Element is not displayed:" + e.getMessage());

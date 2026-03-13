@@ -88,8 +88,10 @@ public class BaseClass {
 		driver.get(url);
 
 		// Initialize ActionDriver
-		actionDriver = new ActionDriver(driver);
-		logger.info("Actiondriver insatnce is created");
+		if(actionDriver == null) {
+			actionDriver = new ActionDriver(driver);
+			logger.info("Actiondriver insatnce is created -->"+Thread.currentThread().getId());
+		}
 	}
 
 	@AfterMethod
@@ -102,9 +104,10 @@ public class BaseClass {
 			}
 		}
 
-//		logger.info("webdriver instance is closed");
-		logger.info("Close down webdriver for :" + this.getClass().getSimpleName());
+		logger.info("Close down Webdriver Instance");
+		logger.info("Close down Actiondriver Instance");
 		logger.info("========== TEST END : {} ==========", this.getClass().getSimpleName());
+		
 		driver = null;
 		actionDriver = null;
 	}

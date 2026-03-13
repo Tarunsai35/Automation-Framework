@@ -1,282 +1,42 @@
-2026-03-12 12:30:55 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 12:30:55 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 12:30:55 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 12:30:55 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 12:30:56 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 12:31:21 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 12:31:24 [main] INFO  ActionDriver - Enter text onElement with name :username Admin
-2026-03-12 12:31:25 [main] INFO  ActionDriver - Enter text onElement with name :password admin123
-2026-03-12 12:31:37 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+2026-03-13 15:57:34 [main] INFO  BaseClass - ========== TEST STARTED : HomePageTest ==========
+2026-03-13 15:57:35 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-13 15:57:45 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-13 15:57:45 [main] INFO  BaseClass - Actiondriver insatnce is created -->1
+2026-03-13 15:57:45 [main] INFO  LoginPage - created action driver
+2026-03-13 15:57:47 [main] INFO  ActionDriver - Enter text on -->Element with name :username admin
+2026-03-13 15:57:47 [main] INFO  ActionDriver - Enter text on -->Element with name :password admin123
+2026-03-13 15:58:05 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
   (Session info: chrome=132.0.6834.160)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [081cedff6f4707befd14fce47f55a383, findElement {value=button[type='submit'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56207/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 081cedff6f4707befd14fce47f55a383
-2026-03-12 12:31:37 [main] INFO  ActionDriver - Clicken an element -->
-2026-03-12 12:31:37 [main] INFO  ActionDriver - Element is displayed: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
-2026-03-12 12:31:38 [main] INFO  ActionDriver - Clicken an element -->Element with className :oxd-userdropdown-name
-2026-03-12 12:31:59 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']/img"}
+Command: [5d8334695db5f4cdeb364961062e89c9, findElement {using=xpath, value=//button[text()=' Login ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60987/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d8334695db5f4cdeb364961062e89c9
+2026-03-13 15:58:05 [main] INFO  ActionDriver - Clicked an element -->
+2026-03-13 15:58:05 [main] INFO  ActionDriver - Element is displayed -->
+2026-03-13 15:58:05 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-13 15:58:05 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-13 15:58:05 [main] INFO  BaseClass - ========== TEST END : HomePageTest ==========
+2026-03-13 16:08:12 [main] INFO  BaseClass - ========== TEST STARTED : HomePageTest ==========
+2026-03-13 16:08:13 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-13 16:08:26 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-13 16:08:26 [main] INFO  BaseClass - Actiondriver insatnce is created -->1
+2026-03-13 16:08:26 [main] INFO  LoginPage - created action driver
+2026-03-13 16:08:27 [main] INFO  ActionDriver - Enter text on -->Element with name :username admin
+2026-03-13 16:08:27 [main] INFO  ActionDriver - Enter text on -->Element with name :password admin123
+2026-03-13 16:08:39 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']"}
   (Session info: chrome=132.0.6834.160)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [081cedff6f4707befd14fce47f55a383, findElement {value=//div[@class='oxd-brand-banner']/img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56207/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 081cedff6f4707befd14fce47f55a383
-2026-03-12 12:31:59 [main] INFO  ActionDriver - Clicken an element -->
-2026-03-12 12:31:59 [main] INFO  BaseClass - webdriver instance is closed
-2026-03-12 13:03:48 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 13:03:48 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 13:03:48 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 13:03:48 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 13:03:50 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 13:04:11 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 13:04:16 [main] INFO  ActionDriver - Enter text onElement with name :username Admin
-2026-03-12 13:04:16 [main] INFO  ActionDriver - Enter text onElement with name :password admin123
-2026-03-12 13:04:31 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d5de089584862ef1c2d70b05657ef84, findElement {using=css selector, value=button[type='submit']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64658/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d5de089584862ef1c2d70b05657ef84
-2026-03-12 13:04:31 [main] INFO  ActionDriver - Clicken an element -->
-2026-03-12 13:04:31 [main] INFO  ActionDriver - Element is displayed: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
-2026-03-12 13:04:31 [main] INFO  ActionDriver - Clicken an element -->Element with className :oxd-userdropdown-name
-2026-03-12 13:04:55 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']/img"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d5de089584862ef1c2d70b05657ef84, findElement {using=xpath, value=//div[@class='oxd-brand-banner']/img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64658/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d5de089584862ef1c2d70b05657ef84
-2026-03-12 13:04:55 [main] INFO  ActionDriver - Clicken an element -->
-2026-03-12 13:04:56 [main] INFO  BaseClass - webdriver instance is closed
-2026-03-12 13:09:01 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 13:09:01 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 13:09:01 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 13:09:01 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 13:09:01 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 13:09:02 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 13:09:26 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 13:09:27 [main] INFO  BaseClass - webdriver instance is closed
-2026-03-12 13:09:27 [main] INFO  BaseClass - *******************************Closed***********************************
-2026-03-12 13:09:28 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 13:09:38 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 13:09:39 [main] INFO  ActionDriver - Enter text onElement with name :username Admin
-2026-03-12 13:09:40 [main] INFO  ActionDriver - Enter text onElement with name :password Admin
-2026-03-12 13:09:49 [main] INFO  ActionDriver - Clicken an element -->Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
-2026-03-12 13:09:49 [main] INFO  ActionDriver - Text are matching Invalid credentials equal Invalid credentials
-2026-03-12 13:09:49 [main] INFO  BaseClass - webdriver instance is closed
-2026-03-12 13:09:49 [main] INFO  BaseClass - *******************************Closed***********************************
-2026-03-12 13:09:50 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 13:10:02 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 13:10:03 [main] INFO  ActionDriver - Enter text onElement with name :username Admin
-2026-03-12 13:10:04 [main] INFO  ActionDriver - Enter text onElement with name :password admin123
-2026-03-12 13:10:16 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2ebc8242f6aec32a07a1b2ec76ef1155, findElement {value=button[type='submit'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61250/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ebc8242f6aec32a07a1b2ec76ef1155
-2026-03-12 13:10:16 [main] INFO  ActionDriver - Clicken an element -->
-2026-03-12 13:10:16 [main] INFO  ActionDriver - Element is displayed: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
-2026-03-12 13:10:16 [main] INFO  ActionDriver - Clicken an element -->Element with className :oxd-userdropdown-name
-2026-03-12 13:10:36 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']/img"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2ebc8242f6aec32a07a1b2ec76ef1155, findElement {value=//div[@class='oxd-brand-banner']/img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61250/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ebc8242f6aec32a07a1b2ec76ef1155
-2026-03-12 13:10:36 [main] INFO  ActionDriver - Clicken an element -->
-2026-03-12 13:10:36 [main] INFO  BaseClass - webdriver instance is closed
-2026-03-12 13:10:36 [main] INFO  BaseClass - *******************************Closed***********************************
-2026-03-12 16:40:44 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 16:40:44 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 16:40:44 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 16:40:44 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 16:40:44 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 16:40:44 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 16:40:44 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 16:40:44 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 16:40:44 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 16:40:44 [main] ERROR ActionDriver - element is not clickable: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 16:40:44 [main] ERROR ActionDriver - Unable to Click Element: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 16:40:44 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 16:40:44 [main] INFO  ActionDriver - Element is displayed: driver is null
-2026-03-12 16:40:44 [main] ERROR ActionDriver - Element is not displayed:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 16:40:44 [main] INFO  BaseClass - Close down webdriver for :LoginPageTest
-2026-03-12 16:40:44 [main] INFO  BaseClass - *******************************Ended***********************************
-2026-03-12 16:44:35 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 16:44:35 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 16:44:35 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 16:44:35 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 16:44:35 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 16:44:38 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 16:45:06 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 16:45:09 [main] INFO  ActionDriver - Enter text onElement with name :username Admin
-2026-03-12 16:45:09 [main] INFO  ActionDriver - Enter text onElement with name :password admin123
-2026-03-12 16:45:21 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bcc8ad87d56073c7e2a387e3d0245521, findElement {value=button[type='submit'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61410}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61410/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bcc8ad87d56073c7e2a387e3d0245521
-2026-03-12 16:45:21 [main] INFO  ActionDriver - Clicken an element -->
-2026-03-12 16:45:21 [main] INFO  ActionDriver - Element is displayed: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
-2026-03-12 16:45:22 [main] INFO  ActionDriver - Clicken an element -->Element with className :oxd-userdropdown-name
-2026-03-12 16:45:52 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']/img"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bcc8ad87d56073c7e2a387e3d0245521, findElement {value=//div[@class='oxd-brand-banner']/img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61410}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61410/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bcc8ad87d56073c7e2a387e3d0245521
-2026-03-12 16:45:52 [main] INFO  ActionDriver - Clicken an element -->
-2026-03-12 16:45:52 [main] INFO  BaseClass - Close down webdriver for :LoginPageTest
-2026-03-12 16:45:52 [main] INFO  BaseClass - *******************************Ended***********************************
-2026-03-12 16:52:43 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 16:52:45 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 16:52:48 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 16:52:57 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 16:53:16 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 16:53:36 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 16:53:48 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 16:53:48 [main] INFO  LoginPage - created action driver-- In login page
-2026-03-12 16:57:21 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 16:57:23 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 16:57:24 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 16:57:25 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 16:57:26 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 16:59:13 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 16:59:22 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 16:59:38 [main] INFO  LoginPage - created action driver-- In login page
-2026-03-12 17:01:04 [main] INFO  ActionDriver - Enter text onElement with name :username Admin
-2026-03-12 17:01:11 [main] INFO  ActionDriver - Enter text onElement with name :password admin123
-2026-03-12 17:02:31 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3481291074823f3ba7dff9ee814cea05, findElement {value=button[type='submit'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52264/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3481291074823f3ba7dff9ee814cea05
-2026-03-12 17:02:38 [main] INFO  ActionDriver - Clicked an element -->
-2026-03-12 17:03:40 [main] INFO  ActionDriver - Element is displayed: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
-2026-03-12 17:04:40 [main] INFO  ActionDriver - Clicked an element -->Element with className :oxd-userdropdown-name
-2026-03-12 17:05:20 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']/img"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3481291074823f3ba7dff9ee814cea05, findElement {value=//div[@class='oxd-brand-banner']/img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52264/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3481291074823f3ba7dff9ee814cea05
-2026-03-12 17:05:22 [main] INFO  ActionDriver - Clicked an element -->
-2026-03-12 17:05:50 [main] INFO  BaseClass - Close down webdriver for :LoginPageTest
-2026-03-12 17:05:50 [main] INFO  BaseClass - *******************************Ended***********************************
-2026-03-12 17:08:14 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 17:08:14 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 17:08:14 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 17:08:14 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 17:08:14 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 17:10:05 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 17:10:05 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 17:10:05 [main] INFO  BaseClass - Webdriver initilized and browser maximized
-2026-03-12 17:10:40 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 17:10:46 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 17:23:44 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 17:23:44 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 17:23:44 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 17:23:44 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 17:23:45 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 17:23:53 [main] INFO  LoginPage - created action driver-- In login page
-2026-03-12 17:23:53 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:23:53 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:23:53 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:23:53 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:23:53 [main] ERROR ActionDriver - element is not clickable: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:23:53 [main] ERROR ActionDriver - Unable to Click Element: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:23:53 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:23:53 [main] INFO  ActionDriver - Element is displayed: driver is null
-2026-03-12 17:23:53 [main] ERROR ActionDriver - Element is not displayed:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:23:54 [main] INFO  BaseClass - Close down webdriver for :LoginPageTest
-2026-03-12 17:23:54 [main] INFO  BaseClass - *******************************Ended***********************************
-2026-03-12 17:25:28 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 17:25:29 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 17:25:36 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 17:25:44 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 17:25:54 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 17:26:53 [main] INFO  LoginPage - created action driver
-2026-03-12 17:27:21 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:27:26 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:27:29 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:32:57 [main] INFO  BaseClass - *****************************Started*********************************
-2026-03-12 17:32:57 [main] INFO  BaseClass - Setting up webdriver for :LoginPageTest
-2026-03-12 17:32:57 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 17:32:57 [main] INFO  BaseClass - ActionDriver instance is created
-2026-03-12 17:32:58 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 17:33:20 [main] INFO  LoginPage - created action driver
-2026-03-12 17:33:20 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:33:20 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:33:20 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:33:20 [main] ERROR ActionDriver - Unable to enter the value:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:33:20 [main] ERROR ActionDriver - element is not clickable: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:33:20 [main] ERROR ActionDriver - Unable to Click Element: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:33:20 [main] ERROR ActionDriver - Element is not visible: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-2026-03-12 17:33:20 [main] INFO  ActionDriver - Element is displayed: driver is null
-2026-03-12 17:33:20 [main] ERROR ActionDriver - Element is not displayed:Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-2026-03-12 17:33:21 [main] INFO  BaseClass - Close down webdriver for :LoginPageTest
-2026-03-12 17:33:21 [main] INFO  BaseClass - *******************************Ended***********************************
-2026-03-12 17:46:56 [main] INFO  BaseClass - ========== TEST STARTED : LoginPageTest ==========
-2026-03-12 17:46:58 [main] INFO  BaseClass - ChromeDriver Initialized
-2026-03-12 17:47:26 [main] INFO  ActionDriver - Webdriver instance is created.
-2026-03-12 17:47:26 [main] INFO  BaseClass - Actiondriver insatnce is created
-2026-03-12 17:47:26 [main] INFO  LoginPage - created action driver
-2026-03-12 17:47:29 [main] INFO  ActionDriver - Enter text onElement with name :username Admin
-2026-03-12 17:47:29 [main] INFO  ActionDriver - Enter text onElement with name :password admin123
-2026-03-12 17:47:43 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [55c9675fb492a2ed79a306b46e9b6ff8, findElement {value=button[type='submit'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62866/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 55c9675fb492a2ed79a306b46e9b6ff8
-2026-03-12 17:47:43 [main] INFO  ActionDriver - Clicked an element -->
-2026-03-12 17:47:43 [main] INFO  ActionDriver - Element is displayed: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
-2026-03-12 17:47:43 [main] INFO  ActionDriver - Clicked an element -->Element with className :oxd-userdropdown-name
-2026-03-12 17:48:14 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']/img"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [55c9675fb492a2ed79a306b46e9b6ff8, findElement {value=//div[@class='oxd-brand-banner']/img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62866/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 55c9675fb492a2ed79a306b46e9b6ff8
-2026-03-12 17:48:14 [main] INFO  ActionDriver - Clicked an element -->
-2026-03-12 17:48:14 [main] INFO  BaseClass - Close down webdriver for :LoginPageTest
-2026-03-12 17:48:14 [main] INFO  BaseClass - ========== TEST END : LoginPageTest ==========
+Command: [bf6ac368365b9eee7346d34a6d147c58, findElement {using=css selector, value=button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49352}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49352/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf6ac368365b9eee7346d34a6d147c58
+2026-03-13 16:08:39 [main] INFO  ActionDriver - Clicked an element -->
+2026-03-13 16:08:39 [main] INFO  ActionDriver - Element is displayed -->Element with className :oxd-userdropdown-tab
+2026-03-13 16:08:40 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-13 16:08:40 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-13 16:08:40 [main] INFO  BaseClass - ========== TEST END : HomePageTest ==========
