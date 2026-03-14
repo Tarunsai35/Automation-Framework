@@ -9,7 +9,7 @@ public class DummyClass extends BaseClass{
 
 	@Test
 	public void dummyclass() {
-		String title = driver.getTitle();
+		String title = getDriver().getTitle();
 		System.out.println(title);
 		Assert.assertEquals(title, "OrangeHRM");
 	}

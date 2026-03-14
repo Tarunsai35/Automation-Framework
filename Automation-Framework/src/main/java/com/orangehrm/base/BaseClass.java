@@ -18,13 +18,16 @@ import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
 
-	protected WebDriver driver;
-	private static ActionDriver actionDriver;
+//	protected WebDriver driver;
+//	private static ActionDriver actionDriver;
 //	protected ConfigReader config;
+	private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+	private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<ActionDriver>();
+
 	public static final Logger logger = LoggerManager.getlogger(BaseClass.class);
 
-	//constructor
-	public void setDriver(WebDriver driver) {
+	// constructor
+	public void setDriver(ThreadLocal<WebDriver> driver) {
 		this.driver = driver;
 	}
 
@@ -52,7 +55,8 @@ public class BaseClass {
 				logger.info("Headless mode Initialized - chrome");
 			}
 
-			driver = new ChromeDriver(options);
+//			driver = new ChromeDriver(options);
+			driver.set(new ChromeDriver());
 			logger.info("ChromeDriver Initialized");
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
@@ -64,7 +68,8 @@ public class BaseClass {
 				logger.info("Headless mode Initialized - firefox");
 			}
 
-			driver = new FirefoxDriver(options);
+//			driver = new FirefoxDriver(options);
+			driver.set(new FirefoxDriver());
 			logger.info("FirefoxDriver Initialized");
 		} else {
 			throw new IllegalArgumentException("Browser not supported: " + browser);
@@ -73,10 +78,10 @@ public class BaseClass {
 		// Set implicit wait time from ConfigReader
 		String implicitWaitStr = ConfigReader.getProperty("implicitWait");
 		int implicitWait = implicitWaitStr != null ? Integer.parseInt(implicitWaitStr) : 30; // default to 30 if not set
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
 
 		// maximize the browser
-		driver.manage().window().maximize();
+		getDriver().manage().window().maximize();
 
 		// Get the URL from ConfigReader
 		String url = ConfigReader.getProperty("url");
@@ -85,20 +90,24 @@ public class BaseClass {
 		}
 
 		// Navigate to url
-		driver.get(url);
+		getDriver().get(url);
 
 		// Initialize ActionDriver
-		if(actionDriver == null) {
-			actionDriver = new ActionDriver(driver);
-			logger.info("Actiondriver insatnce is created -->"+Thread.currentThread().getId());
-		}
+		/*
+		 * if(actionDriver == null) { actionDriver = new ActionDriver(driver);
+		 * logger.info("Actiondriver insatnce is created -->"+Thread.currentThread().
+		 * getId()); }
+		 */
+
+		actionDriver.set(new ActionDriver(getDriver()));
+		logger.info("ActionDriver initlalized for thread: -->" + Thread.currentThread().getId());
 	}
 
 	@AfterMethod
 	public void tearDown() {
 		if (driver != null) {
 			try {
-				driver.quit();
+				getDriver().quit();
 			} catch (Exception e) {
 				logger.error("unable to quit the driver: " + e.getMessage());
 			}
@@ -107,17 +116,30 @@ public class BaseClass {
 		logger.info("Close down Webdriver Instance");
 		logger.info("Close down Actiondriver Instance");
 		logger.info("========== TEST END : {} ==========", this.getClass().getSimpleName());
-		
-		driver = null;
-		actionDriver = null;
+
+		driver.remove();
+		actionDriver.remove();
+//		driver = null;
+//		actionDriver = null;
+
+	}
+
+	// Getter method for driver
+	public static WebDriver getDriver() {
+
+		if (driver.get() == null) {
+			System.out.println("webdriver is not instalized");
+			throw new IllegalStateException("webdriver is not instalized");
+		}
+		return driver.get();
 	}
 
 	public static ActionDriver getActionDriver() {
-		if (actionDriver == null) {
+		if (actionDriver.get() == null) {
 			System.out.println("actionDriver is not initialized");
 			throw new IllegalStateException("actionDriver is not initialized");
 		}
-		return actionDriver;
+		return actionDriver.get();
 	}
 
 }
