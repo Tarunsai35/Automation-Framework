@@ -9,7 +9,7 @@ public class LoggerManager {
 
 	// This method returns a logger instance for the provider class
 	public static  Logger getlogger(Class<?> clazz) {
-		 return LogManager.getLogger();
+		 return LogManager.getLogger(clazz);
 	}
 
 }
