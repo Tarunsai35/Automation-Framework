@@ -1,7 +1,5 @@
 package com.orangehrm.pages;
 
-import java.util.logging.LogManager;
-
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

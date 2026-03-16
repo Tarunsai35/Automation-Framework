@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
+import com.orangehrm.utilities.ExtendManager;
 
 public class LoginPageTest extends BaseClass {
 	
@@ -21,21 +22,35 @@ public class LoginPageTest extends BaseClass {
 
 	@Test
 	public void verifyValidLoginTest() {
+		
+//		ExtendManager.startTest("Valid Login Test"); ----This has been implemented in testListener
+		System.out.println("Running testMethod1 on thread: "+Thread.currentThread().getId());
+		ExtendManager.logStep("Navigating to login page entering username and password");
 		loginPage.login("Admin", "admin123");
+		ExtendManager.logStep("Verifying admin tab is visible or not");
 		Assert.assertTrue(homePage.isAdminToVisible(), "Admin tab should be visible after successful login");
+		ExtendManager.logStep("Validation Successful");
 		homePage.logout();
+		ExtendManager.logStep("Logged out Successfully!");
 	}
 	
 	@Test
 	public void verifyInvalidLoginTest() {
+//		ExtendManager.startTest("Invalid Login Test");  --This has been implemented in testListener
+		System.out.println("Running testMethod2 on thread: "+Thread.currentThread().getId());
+		ExtendManager.logStep("Navigating to login page entering username and password");
 		loginPage.login("Admin", "Admin");
-		String expectedErrorMessage = "Invalid credentials";
+		String expectedErrorMessage = "Invalid credentials1";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),"Test failed: Invalid Error Message");
+		ExtendManager.logStep("Validation Successful");
+		ExtendManager.logStep("Logged out Successfully!");
 		
 	}
 	
 	@Test
 	public void main1() {
+		ExtendManager.startTest("Test Method");
+		System.out.println("Running testMethod3 on thread: "+Thread.currentThread().getId());
 		System.out.println("testing....");
 		System.out.println("testing2....");
 		

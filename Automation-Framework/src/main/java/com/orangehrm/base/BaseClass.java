@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.utilities.ExtendManager;
 import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
@@ -57,6 +58,7 @@ public class BaseClass {
 
 //			driver = new ChromeDriver(options);
 			driver.set(new ChromeDriver());
+			ExtendManager.registerDriver(getDriver());
 			logger.info("ChromeDriver Initialized");
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
@@ -70,6 +72,7 @@ public class BaseClass {
 
 //			driver = new FirefoxDriver(options);
 			driver.set(new FirefoxDriver());
+			ExtendManager.registerDriver(getDriver());
 			logger.info("FirefoxDriver Initialized");
 		} else {
 			throw new IllegalArgumentException("Browser not supported: " + browser);
@@ -121,6 +124,7 @@ public class BaseClass {
 		actionDriver.remove();
 //		driver = null;
 //		actionDriver = null;
+//		ExtendManager.endTest(); --This has been implemented in testListener
 
 	}
 
