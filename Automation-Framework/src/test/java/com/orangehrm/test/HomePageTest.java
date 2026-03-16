@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
+import com.orangehrm.utilities.ExtendManager;
 
 public class HomePageTest extends BaseClass{
 
@@ -15,14 +16,19 @@ public class HomePageTest extends BaseClass{
 	
 	@BeforeMethod
 	public void setupPages() {
-		loginPage = new LoginPage(driver);
-		homePage = new HomePage(driver);
+		loginPage = new LoginPage(getDriver());
+		homePage = new HomePage(getDriver());
 	}
 	
 	@Test
 	public void verifyOrangeHRMLogo() {
+//		ExtendManager.startTest("Home Page verify Logo Test"); --This has been implemented in testListener
+		System.out.println("Running testMethod1 on thread: "+Thread.currentThread().getId());
 		loginPage.login("admin", "admin123");
+		ExtendManager.logStep("Verify Logo is visible or not");
 		Assert.assertTrue(homePage.verifyLogoImage(),"Logo is not visible");
+		ExtendManager.logStep("Validation Successful");
+		ExtendManager.logStep("Logged out Successfully!");
 	}
 	
 }

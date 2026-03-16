@@ -2,6 +2,8 @@ package com.orangehrm.base;
 
 import java.io.IOException;
 import java.time.Duration;
+
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,71 +11,139 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+
+import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.utilities.ExtendManager;
+import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
 
-    protected WebDriver driver;
-    
-    public void setDriver(WebDriver driver) {
-    	this.driver=driver;
-    }
+//	protected WebDriver driver;
+//	private static ActionDriver actionDriver;
+//	protected ConfigReader config;
+	private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+	private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<ActionDriver>();
 
-    @BeforeMethod
-    public void setupBrowser() throws IOException {
-        String browser = ConfigReader.getProperty("browser");
-        String headlessString = ConfigReader.getProperty("headless");
-        boolean headless = Boolean.parseBoolean(headlessString); // Convert to boolean
-        
-        if (browser == null) {
-            throw new IllegalArgumentException("Browser not specified in config.");
-        }
+	public static final Logger logger = LoggerManager.getlogger(BaseClass.class);
 
-        // Initialize browser based on config
-        if (browser.equalsIgnoreCase("chrome")) {
+	// constructor
+	public void setDriver(ThreadLocal<WebDriver> driver) {
+		this.driver = driver;
+	}
 
-            ChromeOptions options = new ChromeOptions();
+	@BeforeMethod
+	public void setupBrowser() throws IOException {
 
-            if (headless) {
-                options.addArguments("--headless=new");
-                options.addArguments("--disable-gpu");
-            }
+		logger.info("========== TEST STARTED : {} ==========", this.getClass().getSimpleName());
 
-            driver = new ChromeDriver(options);
+		String browser = ConfigReader.getProperty("browser");
+		String headlessString = ConfigReader.getProperty("headless");
+		boolean headless = Boolean.parseBoolean(headlessString); // Convert to boolean
 
-        } else if (browser.equalsIgnoreCase("firefox")) {
+		if (browser == null) {
+			throw new IllegalArgumentException("Browser not specified in config.");
+		}
 
-            FirefoxOptions options = new FirefoxOptions();
+		// Initialize browser based on ConfigReader
+		if (browser.equalsIgnoreCase("chrome")) {
 
-            if (headless) {
-                options.addArguments("-headless");
-            }
+			ChromeOptions options = new ChromeOptions();
 
-            driver = new FirefoxDriver(options);
+			if (headless) {
+				options.addArguments("--headless=new");
+				options.addArguments("--disable-gpu");
+				logger.info("Headless mode Initialized - chrome");
+			}
 
-        } else {
-            throw new IllegalArgumentException("Browser not supported: " + browser);
-        }
+//			driver = new ChromeDriver(options);
+			driver.set(new ChromeDriver());
+			ExtendManager.registerDriver(getDriver());
+			logger.info("ChromeDriver Initialized");
 
-        // Set implicit wait time from config
-        String implicitWaitStr = ConfigReader.getProperty("implicitWait");
-        int implicitWait = implicitWaitStr != null ? Integer.parseInt(implicitWaitStr) : 30; // default to 30 if not set
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+		} else if (browser.equalsIgnoreCase("firefox")) {
 
-        driver.manage().window().maximize();
+			FirefoxOptions options = new FirefoxOptions();
 
-        // Get the URL to navigate to
-        String url = ConfigReader.getProperty("url");
-        if (url == null) {
-            throw new IllegalArgumentException("URL not specified in config.");
-        }
-        driver.get(url);
-    }
+			if (headless) {
+				options.addArguments("-headless");
+				logger.info("Headless mode Initialized - firefox");
+			}
 
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();  // Close the browser after test method
-        }
-    }
+//			driver = new FirefoxDriver(options);
+			driver.set(new FirefoxDriver());
+			ExtendManager.registerDriver(getDriver());
+			logger.info("FirefoxDriver Initialized");
+		} else {
+			throw new IllegalArgumentException("Browser not supported: " + browser);
+		}
+
+		// Set implicit wait time from ConfigReader
+		String implicitWaitStr = ConfigReader.getProperty("implicitWait");
+		int implicitWait = implicitWaitStr != null ? Integer.parseInt(implicitWaitStr) : 30; // default to 30 if not set
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+
+		// maximize the browser
+		getDriver().manage().window().maximize();
+
+		// Get the URL from ConfigReader
+		String url = ConfigReader.getProperty("url");
+		if (url == null) {
+			throw new IllegalArgumentException("URL not specified in config.");
+		}
+
+		// Navigate to url
+		getDriver().get(url);
+
+		// Initialize ActionDriver
+		/*
+		 * if(actionDriver == null) { actionDriver = new ActionDriver(driver);
+		 * logger.info("Actiondriver insatnce is created -->"+Thread.currentThread().
+		 * getId()); }
+		 */
+
+		actionDriver.set(new ActionDriver(getDriver()));
+		logger.info("ActionDriver initlalized for thread: -->" + Thread.currentThread().getId());
+	}
+
+	@AfterMethod
+	public void tearDown() {
+		if (driver != null) {
+			try {
+				getDriver().quit();
+			} catch (Exception e) {
+				logger.error("unable to quit the driver: " + e.getMessage());
+			}
+		}
+
+		logger.info("Close down Webdriver Instance");
+		logger.info("Close down Actiondriver Instance");
+		logger.info("========== TEST END : {} ==========", this.getClass().getSimpleName());
+
+		driver.remove();
+		actionDriver.remove();
+//		driver = null;
+//		actionDriver = null;
+//		ExtendManager.endTest(); --This has been implemented in testListener
+
+	}
+
+	// Getter method for driver
+	public static WebDriver getDriver() {
+
+		if (driver.get() == null) {
+			System.out.println("webdriver is not instalized");
+			throw new IllegalStateException("webdriver is not instalized");
+		}
+		return driver.get();
+	}
+
+	public static ActionDriver getActionDriver() {
+		if (actionDriver.get() == null) {
+			System.out.println("actionDriver is not initialized");
+			throw new IllegalStateException("actionDriver is not initialized");
+		}
+		return actionDriver.get();
+	}
 
 }
