@@ -9,11 +9,20 @@
       <class name="com.orangehrm.test.LoginPageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyValidLoginTest"/>
           <include name="setupBrowser"/>
-          <include name="verifyInvalidLoginTest"/>
+          <include name="verifyInvalidLoginTest" invocation-numbers="0"/>
           <include name="setupPages"/>
         </methods>
       </class> <!-- com.orangehrm.test.LoginPageTest -->
+      <class name="com.orangehrm.test.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupBrowser"/>
+          <include name="setupPages"/>
+          <include name="verifyOrangeHRMLogo" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- com.orangehrm.test.HomePageTest -->
     </classes>
   </test> <!-- OrangeHRMTest(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->
