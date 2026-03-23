@@ -10,7 +10,7 @@ public class DummyClass extends BaseClass{
 
 	@Test
 	public void dummyclass() {
-//		ExtendManager.logStep("DummyTest1 Test"); --This has been implemented in testListener
+		ExtendManager.logStep("DummyTest1 Test"); //--This has been implemented in testListener
 		String title = getDriver().getTitle();
 		ExtendManager.logStep("Verify the title");
 		System.out.println(title);

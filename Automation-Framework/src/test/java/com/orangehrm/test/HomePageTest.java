@@ -24,7 +24,7 @@ public class HomePageTest extends BaseClass{
 	
 	@Test(dataProvider = "validLoginData", dataProviderClass = DataProviders.class)
 	public void verifyOrangeHRMLogo(String username, String password) {
-//		ExtendManager.startTest("Home Page verify Logo Test"); --This has been implemented in testListener
+		ExtendManager.startTest("Home Page verify Logo Test"); //--This has been implemented in testListener
 		System.out.println("Running testMethod1 on thread: "+Thread.currentThread().getId());
 		loginPage.login(username, password);
 		ExtendManager.logStep("Verify Logo is visible or not");
