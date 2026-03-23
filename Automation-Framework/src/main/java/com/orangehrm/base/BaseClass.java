@@ -108,7 +108,7 @@ public class BaseClass {
 
 	@AfterMethod
 	public void tearDown() {
-		if (driver != null) {
+		if (driver.get() != null) {
 			try {
 				getDriver().quit();
 			} catch (Exception e) {

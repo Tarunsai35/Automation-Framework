@@ -1,0 +1,68 @@
+2026-03-23 17:34:54 [main] INFO  BaseClass - ========== TEST STARTED : HomePageTest ==========
+2026-03-23 17:34:56 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-23 17:34:56 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-23 17:34:56 [main] INFO  BaseClass - ActionDriver initlalized for thread: -->1
+2026-03-23 17:34:56 [main] INFO  LoginPage - created action driver
+2026-03-23 17:34:57 [main] INFO  ActionDriver - Applied the border color green to element: Element with name :username
+2026-03-23 17:34:57 [main] INFO  ActionDriver - Enter text on -->Element with name :username orangehrm_tarun
+2026-03-23 17:34:57 [main] INFO  ActionDriver - Applied the border color green to element: Element with name :password
+2026-03-23 17:34:58 [main] INFO  ActionDriver - Enter text on -->Element with name :password Tarun123@
+2026-03-23 17:34:58 [main] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-23 17:35:15 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [978625aacb4fc1b2d1df24cc5a4616b5, findElement {using=css selector, value=button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53596/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 978625aacb4fc1b2d1df24cc5a4616b5
+2026-03-23 17:35:25 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [978625aacb4fc1b2d1df24cc5a4616b5, findElement {using=css selector, value=button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53596/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 978625aacb4fc1b2d1df24cc5a4616b5
+2026-03-23 17:35:25 [main] INFO  ActionDriver - Clicked an element -->
+2026-03-23 17:35:25 [main] INFO  ActionDriver - Applied the border color green to element: 
+2026-03-23 17:35:25 [main] INFO  ActionDriver - Element is displayed -->
+2026-03-23 17:35:27 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-23 17:35:27 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-23 17:35:27 [main] INFO  BaseClass - ========== TEST END : HomePageTest ==========
+2026-03-23 17:35:27 [main] INFO  BaseClass - ========== TEST STARTED : HomePageTest ==========
+2026-03-23 17:35:28 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-23 17:35:29 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-23 17:35:29 [main] INFO  BaseClass - ActionDriver initlalized for thread: -->1
+2026-03-23 17:35:29 [main] INFO  LoginPage - created action driver
+2026-03-23 17:35:29 [main] INFO  ActionDriver - Applied the border color green to element: Element with name :username
+2026-03-23 17:35:29 [main] INFO  ActionDriver - Enter text on -->Element with name :username orangehrm_tarun
+2026-03-23 17:35:30 [main] INFO  ActionDriver - Applied the border color green to element: Element with name :password
+2026-03-23 17:35:30 [main] INFO  ActionDriver - Enter text on -->Element with name :password Tarun123@
+2026-03-23 17:35:30 [main] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-23 17:35:41 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a388fdb732505877020ad071f242d470, findElement {using=css selector, value=button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53646}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53646/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a388fdb732505877020ad071f242d470
+2026-03-23 17:35:51 [main] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"css selector","selector":"button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a388fdb732505877020ad071f242d470, findElement {using=css selector, value=button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53646}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53646/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a388fdb732505877020ad071f242d470
+2026-03-23 17:35:51 [main] INFO  ActionDriver - Clicked an element -->
+2026-03-23 17:35:51 [main] INFO  ActionDriver - Applied the border color green to element: 
+2026-03-23 17:35:51 [main] INFO  ActionDriver - Element is displayed -->
+2026-03-23 17:35:52 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-23 17:35:52 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-23 17:35:52 [main] INFO  BaseClass - ========== TEST END : HomePageTest ==========
