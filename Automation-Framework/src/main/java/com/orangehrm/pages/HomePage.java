@@ -15,16 +15,20 @@ public class HomePage {
 	private By profileIconName = By.className("oxd-userdropdown-name");
 	private By logoutBtn = By.xpath("//a[text()='Logout']");
 	private By LogoImage = By.xpath("//div[@class='oxd-brand-banner']//img");
+	private By pimTab = By.xpath("//span[text()='PIM']");
+	private By employeeSearch = By.xpath("//label[text()='Employee Name']/parent::div//following-sibling::div/div/div/input");
+	private By SearchBtn = By.xpath("//button[@type='submit']");
+	private By empFirstAndMiddleName = By.xpath("//div[@class='oxd-table-body']/div/div/div[3]");
+	private By empLastName = By.xpath("//div[@class='oxd-table-body']/div/div/div[4]");
+	
 	
 	//initialize the ActionDriver object by passing webDriver instance
 /*	public HomePage(WebDriver driver) {
 		this.actionDriver = new ActionDriver(driver);
-		System.out.println("Action driver is created");
 	} */
 	
 	public HomePage(WebDriver driver) {
 		this.actionDriver = BaseClass.getActionDriver();
-		System.out.println("created action driver");
 	}
 	
 	//Method to verify if admin tab is visible
@@ -34,6 +38,28 @@ public class HomePage {
 	
 	public boolean verifyLogoImage() {
 		return actionDriver.isDisplayed(LogoImage);
+	}
+	
+	//Method to navigate to PIMTab
+	public void clickOnPIMTab() {
+		actionDriver.click(pimTab);
+	}
+	
+	//Employee Search
+	public void employeeSearch(String value) {
+		actionDriver.enterText(employeeSearch, value);
+		actionDriver.click(SearchBtn);
+		actionDriver.scrollToElement(empFirstAndMiddleName);
+	}
+	
+	//Verify employee first and middle name
+	public boolean verifyEmployeeFirstAndMiddleName(String empFirstAndMiddleNameFromDB) {
+		return actionDriver.compareTex(empFirstAndMiddleName, empFirstAndMiddleNameFromDB);
+	}
+	
+	//Verify employee Last name
+	public boolean verifyEmployeeLastName(String empLastNameFromDB) {
+		return actionDriver.compareTex(empLastName, empLastNameFromDB);
 	}
 	
 	//Method to perform Logout operation
