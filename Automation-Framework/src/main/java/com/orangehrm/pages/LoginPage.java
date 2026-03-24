@@ -15,7 +15,7 @@ public class LoginPage {
 	// Define Locators using By Class
 	private By UserNameField = By.cssSelector("input[placeholder='Username']");
 	private By PasswordField = By.cssSelector("input[placeholder='Password']");
-	private By LoginBtn = By.cssSelector("button[class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']");
+	private By LoginBtn = By.xpath("//button[@type='submit']");
 	private By ErroeMessage = By.cssSelector("p[class='oxd-text oxd-text--p oxd-alert-content-text']");
 
 	//Initialize the ActionDriver object by passing web driver instance
