@@ -47,8 +47,9 @@ public class DBConnection {
 
 				// Store in Map
 				employeeDetails.put("firstName", firstName);
-				employeeDetails.put("midddleName", middleName != null ? middleName : "");
+				employeeDetails.put("middleName", middleName != null ? middleName : "");
 				employeeDetails.put("lastName", lastName);
+				System.out.println(employeeDetails);
 
 				System.out.println("Query Executed Sucessfully");
 				System.out.println("Employee Data Fetched");

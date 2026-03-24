@@ -6,23 +6,14 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="OrangeHRMTest(failed)">
     <classes>
-      <class name="com.orangehrm.test.LoginPageTest">
+      <class name="com.orangehrm.test.DBVerificationTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyValidLoginTest"/>
-          <include name="setupBrowser"/>
-          <include name="verifyInvalidLoginTest" invocation-numbers="0"/>
-          <include name="setupPages"/>
-        </methods>
-      </class> <!-- com.orangehrm.test.LoginPageTest -->
-      <class name="com.orangehrm.test.HomePageTest">
-        <methods>
+          <include name="verifyEmployeeNameVerificationFromDB"/>
           <include name="tearDown"/>
           <include name="setupBrowser"/>
           <include name="setupPages"/>
-          <include name="verifyOrangeHRMLogo" invocation-numbers="0 2"/>
         </methods>
-      </class> <!-- com.orangehrm.test.HomePageTest -->
+      </class> <!-- com.orangehrm.test.DBVerificationTest -->
     </classes>
   </test> <!-- OrangeHRMTest(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->
