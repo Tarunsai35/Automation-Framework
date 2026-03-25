@@ -22,7 +22,11 @@ public class TestListener implements ITestListener{
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		String testName = result.getMethod().getMethodName();
-		ExtendManager.logStepWithScreenshot(BaseClass.getDriver(), "Test Passed Successfully!","Test End: "+ testName);
+		if(!result.getTestClass().getName().toLowerCase().contains("api")) {
+			ExtendManager.logStepWithScreenshot(BaseClass.getDriver(), "Test Passed Successfully!","Test End: "+ testName);
+		}else {
+			ExtendManager.logStepValidationForAPI("Test End: "+ testName);
+		} 
 	}
 
 	// Triggered when a Test fails
@@ -30,7 +34,12 @@ public class TestListener implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		String testName = result.getMethod().getMethodName();
 		String failureMessage = result.getThrowable().getMessage();
-		ExtendManager.logStepWithScreenshot(BaseClass.getDriver(), "Test Failed!","Test End: "+ testName);
+		ExtendManager.logStep(failureMessage);
+		if(!result.getTestClass().getName().toLowerCase().contains("api")) {
+			ExtendManager.logFailure(BaseClass.getDriver(),"Test Failed! "," Test End: "+ testName);
+		}else {
+			ExtendManager.logFailureAPI("Test End: "+ testName);
+		} 
 	}
 
 	//Triggered when a test Skips
