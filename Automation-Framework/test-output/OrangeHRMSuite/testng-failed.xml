@@ -6,14 +6,11 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="OrangeHRMTest(failed)">
     <classes>
-      <class name="com.orangehrm.test.DBVerificationTest">
+      <class name="com.orangehrm.test.ApiTest">
         <methods>
-          <include name="verifyEmployeeNameVerificationFromDB"/>
-          <include name="tearDown"/>
-          <include name="setupBrowser"/>
-          <include name="setupPages"/>
+          <include name="verifyGetUserAPI"/>
         </methods>
-      </class> <!-- com.orangehrm.test.DBVerificationTest -->
+      </class> <!-- com.orangehrm.test.ApiTest -->
     </classes>
   </test> <!-- OrangeHRMTest(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->

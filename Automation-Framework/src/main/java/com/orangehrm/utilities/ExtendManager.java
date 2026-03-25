@@ -74,12 +74,7 @@ public class ExtendManager {
 	
 	//Log a step
 	public static void logStep(String logMessage) {
-//		getTest().info(logMessage);
-		if (getTest() != null) {
-	        getTest().info(logMessage);
-	    } else {
-	        System.out.println("ExtentTest is NULL → " + logMessage);
-	    }
+		getTest().info(logMessage);
 	}
 	
 	//Log a step validation with screenshot

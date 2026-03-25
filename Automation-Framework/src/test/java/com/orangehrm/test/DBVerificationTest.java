@@ -30,7 +30,7 @@ public class DBVerificationTest extends BaseClass {
 		
 		SoftAssert softAssert = getSoftAssert();
 		
-//		ExtendManager.startTest("Valid Login Test"); //----This has been implemented in testListener
+		ExtendManager.startTest("Valid Login Test"); //----This has been implemented in testListener
 		ExtendManager.logStep("Logging with admin credentails..");
 		loginPage.login(ConfigReader.getProperty("username"), ConfigReader.getProperty("password"));
 		
@@ -49,7 +49,7 @@ public class DBVerificationTest extends BaseClass {
 		String empFirstName = employeeDetails.get("firstName");
 		String empMiddleName = employeeDetails.get("middleName");
 		String empLastName = employeeDetails.get("lastName");
-		String empFirstAndMiddleName = (empFirstName+"Test"+empMiddleName).trim(); // Test fail by adding "test"
+		String empFirstAndMiddleName = (empFirstName+" "+empMiddleName).trim(); // Test fail by adding "test"
 		
 		ExtendManager.logStep("verfiy the employee first and middle name");
 //		Assert.assertTrue(homePage.verifyEmployeeFirstAndMiddleName(empFirstAndMiddleName),"First and Middle name are not matched");
