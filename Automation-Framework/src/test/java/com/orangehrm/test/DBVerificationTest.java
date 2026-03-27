@@ -45,6 +45,7 @@ public class DBVerificationTest extends BaseClass {
 		
 		//Fetch the data into a map
 		
+<<<<<<< HEAD
 		Map<String,String> employeeDetails = DBConnection.getEmployeeDetails(employee_id);
 		
 		String emplFirstName = employeeDetails.get("firstName");
@@ -52,6 +53,20 @@ public class DBVerificationTest extends BaseClass {
 		String emplLastName = employeeDetails.get("lastName");
 		
 		String emplFirstAndMiddleName =(emplFirstName+" "+emplMiddleName).trim();
+=======
+		String empFirstName = employeeDetails.get("firstname");
+		String empMiddleName = employeeDetails.get("middlename");
+		String empLastName = employeeDetails.get("lastname");
+		String empFirstAndMiddleName = (empFirstName+" "+empMiddleName).trim(); // Test fail by adding "test"
+		
+		ExtendManager.logStep("verfiy the employee first and middle name");
+		Assert.assertTrue(homePage.verifyEmployeeFirstAndMiddleName(empFirstAndMiddleName),"First and Middle name are not matched");
+//		softAssert.assertTrue(homePage.verifyEmployeeFirstAndMiddleName(empFirstAndMiddleName),"First and Middle name are not matched");
+		
+		ExtendManager.logStep("verfiy the employee Last name");
+		Assert.assertTrue(homePage.verifyEmployeeLastName(empLastName),"Last name are not matched");
+//		softAssert.assertTrue(homePage.verifyEmployeeLastName(empLastName),"Last name are not matched");
+>>>>>>> 5eec507a2250a42f74360f7b4c4ae0350fab5edb
 		
 		//Validation for first and middle name
 		ExtendManager.logStep("Verify the employee first and middle name");
@@ -63,8 +78,12 @@ public class DBVerificationTest extends BaseClass {
 		
 		ExtendManager.logStep("DB Validation Completed");
 		
+<<<<<<< HEAD
 		softAssert.assertAll();
 
+=======
+//		softAssert.assertAll();
+>>>>>>> 5eec507a2250a42f74360f7b4c4ae0350fab5edb
 	}
 
 }
