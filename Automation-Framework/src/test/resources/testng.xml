@@ -8,7 +8,7 @@
 
 	<test name="OrangeHRMTest">
 		<classes>
-			<class name="com.orangehrm.test.DummyClass"/>
+			<class name="com.orangehrm.test.DummyClass"></class>
 			<class name="com.orangehrm.test.LoginPageTest"></class>
 			<class name="com.orangehrm.test.HomePageTest"></class>
 			<class name="com.orangehrm.test.DBVerificationTest"></class>

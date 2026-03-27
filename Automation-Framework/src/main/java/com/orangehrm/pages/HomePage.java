@@ -54,12 +54,12 @@ public class HomePage {
 	
 	//Verify employee first and middle name
 	public boolean verifyEmployeeFirstAndMiddleName(String empFirstAndMiddleNameFromDB) {
-		return actionDriver.compareText(empFirstAndMiddleName, empFirstAndMiddleNameFromDB);
+		return actionDriver.compareTex(empFirstAndMiddleName, empFirstAndMiddleNameFromDB);
 	}
 	
 	//Verify employee Last name
 	public boolean verifyEmployeeLastName(String empLastNameFromDB) {
-		return actionDriver.compareText(empLastName, empLastNameFromDB);
+		return actionDriver.compareTex(empLastName, empLastNameFromDB);
 	}
 	
 	//Method to perform Logout operation
