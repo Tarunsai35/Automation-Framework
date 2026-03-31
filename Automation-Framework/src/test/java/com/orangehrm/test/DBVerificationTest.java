@@ -2,6 +2,7 @@ package com.orangehrm.test;
 
 import java.util.Map;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -46,22 +47,22 @@ public class DBVerificationTest extends BaseClass {
 		//Fetch the data into map
 		Map<String, String> employeeDetails = DBConnection.getEmployeeDetails(employee_id);
 		
-		String empFirstName = employeeDetails.get("firstName");
-		String empMiddleName = employeeDetails.get("middleName");
-		String empLastName = employeeDetails.get("lastName");
+		String empFirstName = employeeDetails.get("firstname");
+		String empMiddleName = employeeDetails.get("middlename");
+		String empLastName = employeeDetails.get("lastname");
 		String empFirstAndMiddleName = (empFirstName+" "+empMiddleName).trim(); // Test fail by adding "test"
 		
 		ExtendManager.logStep("verfiy the employee first and middle name");
-//		Assert.assertTrue(homePage.verifyEmployeeFirstAndMiddleName(empFirstAndMiddleName),"First and Middle name are not matched");
-		softAssert.assertTrue(homePage.verifyEmployeeFirstAndMiddleName(empFirstAndMiddleName),"First and Middle name are not matched");
+		Assert.assertTrue(homePage.verifyEmployeeFirstAndMiddleName(empFirstAndMiddleName),"First and Middle name are not matched");
+//		softAssert.assertTrue(homePage.verifyEmployeeFirstAndMiddleName(empFirstAndMiddleName),"First and Middle name are not matched");
 		
 		ExtendManager.logStep("verfiy the employee Last name");
-//		Assert.assertTrue(homePage.verifyEmployeeLastName(empLastName),"Last name are not matched");
-		softAssert.assertTrue(homePage.verifyEmployeeLastName(empLastName),"Last name are not matched");
+		Assert.assertTrue(homePage.verifyEmployeeLastName(empLastName),"Last name are not matched");
+//		softAssert.assertTrue(homePage.verifyEmployeeLastName(empLastName),"Last name are not matched");
 		
 		ExtendManager.logStep("DB Validation Completed..");
 		
-		softAssert.assertAll();
+//		softAssert.assertAll();
 	}
 	
 	

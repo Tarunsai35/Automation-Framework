@@ -1,1 +1,16 @@
 /target/
+# TestNG reports
+test-output/
+
+# Extent reports
+ExtentReport/
+*.html
+
+# Excel test data (optional if generated)
+*.xlsx
+
+# Logs
+*.log
+
+# Build folders
+target/

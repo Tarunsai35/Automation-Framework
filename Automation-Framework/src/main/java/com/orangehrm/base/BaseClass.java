@@ -47,7 +47,7 @@ public class BaseClass {
 
 		String browser = ConfigReader.getProperty("browser");
 		String headlessString = ConfigReader.getProperty("headless");
-		boolean headless = Boolean.parseBoolean(headlessString); // Convert to boolean
+		boolean Headless = Boolean.parseBoolean(headlessString); // Convert to boolean
 
 		if (browser == null) {
 			throw new IllegalArgumentException("Browser not specified in config.");
@@ -58,14 +58,14 @@ public class BaseClass {
 
 			ChromeOptions options = new ChromeOptions();
 
-			if (headless) {
+			if (Headless) {
 				options.addArguments("--headless=new");
 				options.addArguments("--disable-gpu");
 				logger.info("Headless mode Initialized - chrome");
 			}
 
 //			driver = new ChromeDriver(options);
-			driver.set(new ChromeDriver());
+			driver.set(new ChromeDriver(options));
 			ExtendManager.registerDriver(getDriver());
 			logger.info("ChromeDriver Initialized");
 
@@ -73,13 +73,13 @@ public class BaseClass {
 
 			FirefoxOptions options = new FirefoxOptions();
 
-			if (headless) {
+			if (Headless) {
 				options.addArguments("-headless");
 				logger.info("Headless mode Initialized - firefox");
 			}
 
 //			driver = new FirefoxDriver(options);
-			driver.set(new FirefoxDriver());
+			driver.set(new FirefoxDriver(options));
 			ExtendManager.registerDriver(getDriver());
 			logger.info("FirefoxDriver Initialized");
 		} else {

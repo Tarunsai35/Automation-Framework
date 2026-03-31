@@ -50,9 +50,9 @@ public class DBConnection {
 				String lastName = rs.getString("emp_lastname");
 
 				// Store in Map
-				employeeDetails.put("firstName", firstName);
-				employeeDetails.put("middleName", middleName != null ? middleName : "");
-				employeeDetails.put("lastName", lastName);
+				employeeDetails.put("firstname", firstName);
+				employeeDetails.put("middlename", middleName != null ? middleName : "");
+				employeeDetails.put("lastname", lastName);
 
 				logger.info("Query Executed Sucessfully");
 				logger.info("Employee Data Fetched");
