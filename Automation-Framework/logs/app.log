@@ -1211,3 +1211,316 @@ Session ID: 722b77ed5277013b7a0e04623808dcd3
 2026-03-27 15:32:35 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Webdriver Instance
 2026-03-27 15:32:35 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Actiondriver Instance
 2026-03-27 15:32:35 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST END : LoginPageTest ==========
+2026-03-31 11:11:10 [main] INFO  BaseClass - ========== TEST STARTED : DummyClass ==========
+2026-03-31 11:11:10 [main] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 11:11:13 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 11:13:48 [main] INFO  BaseClass - ========== TEST STARTED : DummyClass ==========
+2026-03-31 11:13:48 [main] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 11:13:49 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 11:14:17 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 11:14:17 [main] INFO  BaseClass - ActionDriver initlalized for thread: -->1
+2026-03-31 11:14:17 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 11:14:17 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 11:14:17 [main] INFO  BaseClass - ========== TEST END : DummyClass ==========
+2026-03-31 11:17:25 [main] INFO  BaseClass - ========== TEST STARTED : DummyClass ==========
+2026-03-31 11:17:25 [main] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 11:17:27 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 11:17:36 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 11:17:36 [main] INFO  BaseClass - ActionDriver initlalized for thread: -->1
+2026-03-31 11:17:36 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 11:17:36 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 11:17:36 [main] INFO  BaseClass - ========== TEST END : DummyClass ==========
+2026-03-31 11:19:13 [main] INFO  BaseClass - ========== TEST STARTED : DummyClass ==========
+2026-03-31 11:19:13 [main] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 11:19:14 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 11:19:23 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 11:19:23 [main] INFO  BaseClass - ActionDriver initlalized for thread: -->1
+2026-03-31 11:19:24 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 11:19:24 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 11:19:24 [main] INFO  BaseClass - ========== TEST END : DummyClass ==========
+2026-03-31 11:21:05 [main] INFO  BaseClass - ========== TEST STARTED : DummyClass ==========
+2026-03-31 11:21:07 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 11:21:15 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 11:21:15 [main] INFO  BaseClass - ActionDriver initlalized for thread: -->1
+2026-03-31 11:21:38 [main] INFO  BaseClass - ========== TEST STARTED : DummyClass ==========
+2026-03-31 11:21:40 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 11:21:59 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 11:21:59 [main] INFO  BaseClass - ActionDriver initlalized for thread: -->1
+2026-03-31 11:22:50 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 11:22:50 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 11:22:50 [main] INFO  BaseClass - ========== TEST END : DummyClass ==========
+2026-03-31 11:24:52 [main] INFO  BaseClass - ========== TEST STARTED : DummyClass ==========
+2026-03-31 11:24:52 [main] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 11:24:54 [main] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 11:24:55 [main] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 11:24:55 [main] INFO  BaseClass - ActionDriver initlalized for thread: -->1
+2026-03-31 11:24:55 [main] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 11:24:55 [main] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 11:24:55 [main] INFO  BaseClass - ========== TEST END : DummyClass ==========
+2026-03-31 17:09:44 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST STARTED : LoginPageTest ==========
+2026-03-31 17:09:44 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ========== TEST STARTED : DummyClass ==========
+2026-03-31 17:09:44 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 17:09:44 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 17:09:45 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ========== TEST STARTED : HomePageTest ==========
+2026-03-31 17:09:45 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 17:09:45 [TestNG-test=OrangeHRMTest-4] INFO  BaseClass - ========== TEST STARTED : DBVerificationTest ==========
+2026-03-31 17:09:45 [TestNG-test=OrangeHRMTest-4] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 17:09:47 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 17:09:47 [TestNG-test=OrangeHRMTest-4] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 17:09:47 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 17:09:47 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 17:10:14 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 17:10:14 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlalized for thread: -->40
+2026-03-31 17:10:14 [TestNG-test=OrangeHRMTest-3] INFO  LoginPage - created action driver
+2026-03-31 17:10:15 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 17:10:15 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlalized for thread: -->39
+2026-03-31 17:10:15 [TestNG-test=OrangeHRMTest-2] INFO  LoginPage - created action driver
+2026-03-31 17:10:15 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 17:10:15 [TestNG-test=OrangeHRMTest-4] INFO  BaseClass - ActionDriver initlalized for thread: -->41
+2026-03-31 17:10:15 [TestNG-test=OrangeHRMTest-4] INFO  LoginPage - created action driver
+2026-03-31 17:10:15 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 17:10:15 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlalized for thread: -->38
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border color green to element: Element with name :username
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with name :username
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Enter text on -->Element with name :username orangehrm_tarun
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ========== TEST END : DummyClass ==========
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Enter text on -->Element with name :username orangehrm_tarun
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border color green to element: Element with name :password
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with name :password
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Enter text on -->Element with name :password Tarun123@
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Enter text on -->Element with name :password Tarun123@
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-31 17:10:17 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-31 17:10:18 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 17:10:18 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 17:10:18 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST END : LoginPageTest ==========
+2026-03-31 17:10:18 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST STARTED : LoginPageTest ==========
+2026-03-31 17:10:18 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 17:10:19 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 17:10:19 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 17:10:19 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlalized for thread: -->39
+2026-03-31 17:10:19 [TestNG-test=OrangeHRMTest-2] INFO  LoginPage - created action driver
+2026-03-31 17:10:20 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with name :username
+2026-03-31 17:10:20 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Enter text on -->Element with name :username admin1
+2026-03-31 17:10:20 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with name :password
+2026-03-31 17:10:20 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Enter text on -->Element with name :password admin123
+2026-03-31 17:10:20 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-31 17:10:22 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element -->Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-31 17:10:22 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-text oxd-text--p oxd-alert-content-text
+2026-03-31 17:10:22 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Text are matching Invalid credentials equal Invalid credentials
+2026-03-31 17:10:23 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 17:10:23 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 17:10:23 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST END : LoginPageTest ==========
+2026-03-31 17:10:23 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST STARTED : LoginPageTest ==========
+2026-03-31 17:10:23 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 17:10:24 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 17:10:25 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 17:10:25 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlalized for thread: -->39
+2026-03-31 17:10:25 [TestNG-test=OrangeHRMTest-2] INFO  LoginPage - created action driver
+2026-03-31 17:10:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with name :username
+2026-03-31 17:10:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Enter text on -->Element with name :username orangehrm_tarun
+2026-03-31 17:10:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with name :password
+2026-03-31 17:10:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Enter text on -->Element with name :password Tarun123@
+2026-03-31 17:10:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-31 17:10:37 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8476d2820e2d936add005c88eb24e24, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63203/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8476d2820e2d936add005c88eb24e24
+2026-03-31 17:10:37 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03c41978e1e9124ede67ee62988a1665, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63205/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03c41978e1e9124ede67ee62988a1665
+2026-03-31 17:10:38 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [094a886f9a8e5c232fbc92c7c5d7fc5d, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63308/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 094a886f9a8e5c232fbc92c7c5d7fc5d
+2026-03-31 17:10:47 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03c41978e1e9124ede67ee62988a1665, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63205/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03c41978e1e9124ede67ee62988a1665
+2026-03-31 17:10:47 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element -->
+2026-03-31 17:10:47 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8476d2820e2d936add005c88eb24e24, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63203/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8476d2820e2d936add005c88eb24e24
+2026-03-31 17:10:47 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Clicked an element -->
+2026-03-31 17:10:47 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-31 17:10:47 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border color green to element: 
+2026-03-31 17:10:47 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Element is displayed -->
+2026-03-31 17:10:48 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 17:10:48 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 17:10:48 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ========== TEST END : HomePageTest ==========
+2026-03-31 17:10:48 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ========== TEST STARTED : HomePageTest ==========
+2026-03-31 17:10:48 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 17:10:48 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [094a886f9a8e5c232fbc92c7c5d7fc5d, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63308/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 094a886f9a8e5c232fbc92c7c5d7fc5d
+2026-03-31 17:10:48 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element -->
+2026-03-31 17:10:49 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Clicked an element -->Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-31 17:10:49 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 17:10:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-31 17:10:49 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with placeholder :Type for hints...
+2026-03-31 17:10:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Element is displayed -->Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-31 17:10:49 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Enter text on -->Element with placeholder :Type for hints... sai
+2026-03-31 17:10:49 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-31 17:10:50 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 17:10:50 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlalized for thread: -->40
+2026-03-31 17:10:50 [TestNG-test=OrangeHRMTest-3] INFO  LoginPage - created action driver
+2026-03-31 17:10:50 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Clicked an element -->Element with className :oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-31 17:10:50 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-userdropdown-name
+2026-03-31 17:10:50 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element -->Element with className :oxd-userdropdown-name
+2026-03-31 17:10:50 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-userdropdown-link
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-table-cell oxd-padding-cell
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-4] INFO  DBConnection - Starting DB Connection...
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border color green to element: Element with name :username
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Enter text on -->Element with name :username orangehrm_tarun
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-4] INFO  DBConnection - DB Connected Successful
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-4] INFO  DBConnection - Executing query: SELECT emp_firstname, emp_middle_name, emp_lastname from hs_hr_employee where employee_id =2
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-4] INFO  DBConnection - Query Executed Sucessfully
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-4] INFO  DBConnection - Employee Data Fetched
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border color green to element: Element with name :password
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-table-cell oxd-padding-cell
+2026-03-31 17:10:51 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Text are matching sai kumar equal sai kumar
+2026-03-31 17:10:52 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Enter text on -->Element with name :password Tarun123@
+2026-03-31 17:10:52 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-31 17:10:52 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-table-cell oxd-padding-cell
+2026-03-31 17:10:52 [TestNG-test=OrangeHRMTest-4] INFO  ActionDriver - Text are matching k equal k
+2026-03-31 17:10:53 [TestNG-test=OrangeHRMTest-4] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 17:10:53 [TestNG-test=OrangeHRMTest-4] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 17:10:53 [TestNG-test=OrangeHRMTest-4] INFO  BaseClass - ========== TEST END : DBVerificationTest ==========
+2026-03-31 17:11:02 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [094a886f9a8e5c232fbc92c7c5d7fc5d, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63308/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 094a886f9a8e5c232fbc92c7c5d7fc5d
+2026-03-31 17:11:03 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c992f95be9a8906b279ef8a40c45da8, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63411/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c992f95be9a8906b279ef8a40c45da8
+2026-03-31 17:11:12 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [094a886f9a8e5c232fbc92c7c5d7fc5d, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63308/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 094a886f9a8e5c232fbc92c7c5d7fc5d
+2026-03-31 17:11:12 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element -->
+2026-03-31 17:11:12 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 17:11:12 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 17:11:12 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST END : LoginPageTest ==========
+2026-03-31 17:11:12 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST STARTED : LoginPageTest ==========
+2026-03-31 17:11:12 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Headless mode Initialized - chrome
+2026-03-31 17:11:13 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c992f95be9a8906b279ef8a40c45da8, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63411/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c992f95be9a8906b279ef8a40c45da8
+2026-03-31 17:11:13 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element -->
+2026-03-31 17:11:13 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ChromeDriver Initialized
+2026-03-31 17:11:13 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border color green to element: 
+2026-03-31 17:11:13 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Element is displayed -->
+2026-03-31 17:11:14 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Webdriver instance is created.
+2026-03-31 17:11:14 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlalized for thread: -->39
+2026-03-31 17:11:14 [TestNG-test=OrangeHRMTest-2] INFO  LoginPage - created action driver
+2026-03-31 17:11:15 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 17:11:15 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 17:11:15 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ========== TEST END : HomePageTest ==========
+2026-03-31 17:11:15 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with name :username
+2026-03-31 17:11:15 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Enter text on -->Element with name :username orangehrm_tarun
+2026-03-31 17:11:15 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with name :password
+2026-03-31 17:11:15 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Enter text on -->Element with name :password Tarun123@
+2026-03-31 17:11:15 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-31 17:11:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b8648bf1bc088f337650b56f62c5b0, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63485}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63485/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b8648bf1bc088f337650b56f62c5b0
+2026-03-31 17:11:37 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b8648bf1bc088f337650b56f62c5b0, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63485}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63485/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b8648bf1bc088f337650b56f62c5b0
+2026-03-31 17:11:37 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element -->
+2026-03-31 17:11:37 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-31 17:11:37 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Element is displayed -->Element with className :oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-31 17:11:37 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-userdropdown-name
+2026-03-31 17:11:38 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element -->Element with className :oxd-userdropdown-name
+2026-03-31 17:11:38 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border color green to element: Element with className :oxd-userdropdown-link
+2026-03-31 17:11:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b8648bf1bc088f337650b56f62c5b0, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63485}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63485/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b8648bf1bc088f337650b56f62c5b0
+2026-03-31 17:11:59 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Unable to describe the elementno such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b8648bf1bc088f337650b56f62c5b0, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63485}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63485/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b8648bf1bc088f337650b56f62c5b0
+2026-03-31 17:11:59 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element -->
+2026-03-31 17:11:59 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Webdriver Instance
+2026-03-31 17:11:59 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Close down Actiondriver Instance
+2026-03-31 17:11:59 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ========== TEST END : LoginPageTest ==========
